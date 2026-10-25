@@ -1,0 +1,11 @@
+
+echo "Build started for Event Registration Form"
+
+ls -l
+
+test -f index.html && echo "index.html found"
+test -f style.css && echo "style.css found"
+test -f script.js && echo "script.js found"
+test -f Dockerfile && echo "Dockerfile found"
+
+echo "Build successful"
